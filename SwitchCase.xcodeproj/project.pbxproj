@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5ABE088421422590000DE438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE088321422590000DE438 /* main.m */; };
+		5ABE088C214225A4000DE438 /* SwitchCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE088B214225A4000DE438 /* SwitchCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5ABE088021422590000DE438 /* SwitchCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwitchCase; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE088321422590000DE438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ABE088A214225A4000DE438 /* SwitchCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchCase.h; sourceTree = "<group>"; };
+		5ABE088B214225A4000DE438 /* SwitchCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5ABE088321422590000DE438 /* main.m */,
+				5ABE088A214225A4000DE438 /* SwitchCase.h */,
+				5ABE088B214225A4000DE438 /* SwitchCase.m */,
 			);
 			path = SwitchCase;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABE088421422590000DE438 /* main.m in Sources */,
+				5ABE088C214225A4000DE438 /* SwitchCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
